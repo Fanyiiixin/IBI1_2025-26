@@ -3,10 +3,20 @@ b = 5.33
 c = 5.55
 d = b-a
 e = c-b
-print(d,e)
+if d > e:
+  print("d is larger than e")
+elif e > d:
+  print("e is larger than d")
+else:
+  print("d and e are equal")
+
 # The population growth is decelerating
-X = 5 > 4
-Y = 6 == 7
-print(X,Y)
+X = True
+Y = False
 W = X or Y
-W
+# | X     | Y     | W     |
+# |-------|-------|-------|
+# | True  | True  | True  |
+# | True  | False | True  |
+# | False | True  | True  |
+# | False | False | False |
