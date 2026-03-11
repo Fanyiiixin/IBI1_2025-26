@@ -8,7 +8,8 @@ days = 0
 # Infection loop
 while current_infected < total_students:
   days += 1
-  new_infected = initial_infected * growth_rate
+  new_infected = current_infected * growth_rate
+# Make sure the total infected number won't exceed the total students number
   if current_infected + new_infected > total_students:
     new_infected = total_students - current_infected
   current_infected += new_infected
