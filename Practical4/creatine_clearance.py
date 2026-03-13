@@ -1,3 +1,9 @@
+# 1. Define input variables: age, weight, gender, creatinine concentration (cr)
+# 2.  Check each variable in sequence to ensure it meets the range requirements
+# 3.  If any variable does not meet the criteria, an error is reported and the result is not computed
+# 4.  When all variables are consistent, use the formula to calculate creatinine clearance (CrCl)
+# 5.  The female result needs to be multiplied by an additional 0.85
+--------------------------------------------------------------------------------
 # 1. Input variables
 age = 50
 weight = 60
