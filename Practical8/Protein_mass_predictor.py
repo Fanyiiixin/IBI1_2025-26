@@ -32,8 +32,7 @@ def calculate_protein_mass(sequence):
     Returns:
         float: Total mass of the protein in atomic mass units (amu), summed from residue masses.
         
-    Raises:
-        ValueError: If any character in the input sequence is not a valid amino acid symbol.
+        Error: If any character in the input sequence is not a valid amino acid symbol.
     """
     total_mass = 0.0
     # Iterate over each amino acid character in the input sequence
