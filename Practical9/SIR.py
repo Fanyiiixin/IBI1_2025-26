@@ -14,6 +14,7 @@
 #       Update next_R = current_R + new_recoveries
 #    f. Append next_S, next_I, next_R to the lists S, I, R
 #4. Plot S, I, R over time with labels, title, and legend
+#5. Save the plot
 # import necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
