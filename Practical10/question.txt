@@ -1,3 +1,3 @@
 Q:  What was the distribution of DALYs across all countries in 2019?
-Code for answering: line 78-81
+Code for answering: line 79-82
 This boxplot reveals a highly right-skewed global distribution of DALY rates across countries in 2019. Most nations cluster within a moderate DALY range, while multiple extreme high-value outliers exist, representing countries with exceptionally heavy disease burdens.
